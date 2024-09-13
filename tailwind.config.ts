@@ -11,7 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customBlue: "rgb(91, 106, 236)",
       },
+      backgroundColor: {},
     },
   },
   plugins: [],
