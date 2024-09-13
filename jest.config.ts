@@ -3,7 +3,8 @@
  * https://jestjs.io/docs/configuration
  */
 
-import type {Config} from 'jest';
+import type { Config } from "jest";
+import "@testing-library/jest-dom";
 
 const config: Config = {
   // All imported modules in your tests should be mocked automatically
